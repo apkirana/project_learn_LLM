@@ -1,0 +1,6 @@
+ipykernel>=6.29.5
+notebook>=7.3.2
+pandas>=2.2.3
+python-dotenv>=1.0.1
+seaborn>=0.13.2
+t2ebm>=0.1.2

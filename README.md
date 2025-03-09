@@ -62,9 +62,17 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## important ins
 
 ```bash
+# create env first
+python3 -m venv .venv
+#activate
 source .venv/bin/activate
+#sync toml
 sync
 
+#if you want to run requirement
+uv pip install -r requirements.txt
+
+#if you want to add new lyb
 uv add pandas
 uv add seaborn
 ```

@@ -11,5 +11,6 @@ dependencies = [
     "python-dotenv>=1.0.1",
     "seaborn>=0.13.2",
     "t2ebm>=0.1.2",
+    "torch>=2.6.0",
 ]
 

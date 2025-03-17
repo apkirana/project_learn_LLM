@@ -75,4 +75,7 @@ uv pip install -r requirements.txt
 #if you want to add new lyb
 uv add pandas
 uv add seaborn
+
+%update python
+pip install --upgrade pip
 ```

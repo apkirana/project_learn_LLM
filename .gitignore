@@ -9,3 +9,11 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+
+# Data
+visiontransformer/data/
+visiontransformer/oxford-iiit-pet
+
+# Cache
+visiontransformer/cache/

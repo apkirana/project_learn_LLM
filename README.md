@@ -61,7 +61,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## important ins
 
-```bash
+# Create virtual env (if not already done)
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+
+# Generate requirements.txt from installed packages
+pip freeze > requirements.txt
 # create env first
 python3 -m venv .venv
 #activate
@@ -79,3 +84,10 @@ uv add seaborn
 %update python
 pip install --upgrade pip
 ```
+
+pip install tomli tomli-w 
+
+
+conda env list
+conda activate vlmtask
+conda env export > environment.yml
